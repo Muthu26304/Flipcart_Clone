@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+   
+    font-family: Georgia, serif;
+    
+    
+}
+
+
+#html2container{
+    width:100%;
+    height: auto;
+}
+
+
+.header2{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:100%;
+    height: 70px;
+    top:0px;
+    color:white;
+    background-color: rgb(55, 77, 241);
+    
+}
+
+
+.header{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:100%;
+    height: 70px;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.flipkart-img{
+    
+    width:150px;
+    height: 70px;
+    
+}
+
+input{
+    font-size: 18px;
+    /* margin-left: 280px; */
+    /* margin-top: 10px; */
+    width:50%;
+    height: 45px;
+   border-radius: 10px;
+    border:1px solid rgb(234, 239, 249);
+    background-color: rgb(234, 239, 249);
+}
+
+
+.html2-aker{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+     margin-top:20px;
+    margin-left: 50px;  
+
+}
+
+li{
+    list-style: none;
+}
+
+.ht2-para{
+    line-height: 2;
+    padding: 10px;
+}
+
+
+#login-btn:hover{
+    background-color: rgb(206, 206, 215);
+    
+
+}
+
+
+
+.section-2html{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    margin-top: 70px;
+    background-color:whitesmoke
+    /* box-shadow: 2px 2px 30px rgb(216, 209, 209) */
+}
+
+
+.electronics-contents{
+    
+    /* display: flex; */
+    width:1200px;
+    height:550px;
+    background-color: rgb(235, 235, 235);
+    /* box-shadow: 1px 8px 30px rgb(228, 228, 224); */
+    margin:10px 100px;
+    display: none;
+    z-index:3;
+    
+
+}
+
+.moblie-list,.Accessories-list{
+    line-height: 2;
+    font-size: 14px;
+    opacity: 0.7;
+
+}
+
+.moblie{
+    width:300px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Moblie-Accessories{
+    width:300px;
+    height: 550px;
+    background-color: rgb(229, 229, 229);
+}
+
+
+.section-2html:hover + .electronics-contents,
+.section-2html:hover ~ .electronics-contents {
+  display:block;display: flex;
+}
+
+
+.html2sec-a:hover{
+    color:blue
+
+}
+
+.sidebar-ht2{
+    
+    width:200px;
+    height:fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    box-shadow: 10px 10px 30px rgb(232, 229, 229);
+    /* padding: 20px; */
+}
+
+section{
+    font-size: 17px;
+    opacity: 0.7;
+border-bottom: 0.1px solid rgb(209, 207, 207);
+padding:20px;}
+
+#in-htm2{
+    position: absolute;
+    left:-245px;
+    bottom: 223px;
+    width:57px;
+    height: 20px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border:solid white;
+    border-radius: 1px;
+    border-bottom: 0.5px solid;
+
+}
+
+.flipkart-img2{
+     width:100px;
+    height: 29px;
+}
+
+
+.main-content{
+    width:1250px;
+    height:fit-content;
+    /* background-color: rgb(40, 40, 185); */
+    position: absolute;
+    top:285px;
+    right: 20px;
+    z-index: -1;
+    /* padding-bottom: 200px; */
+    
+
+}
+
+.html-2-add{
+
+    width:1250px;
+    height: 615px;
+    /* z-index: -1; */
+    display: block;
+}
+
+
+.black-footer{
+    display: flex;
+    width:100%;
+    height:auto;
+    background-color: #242121;
+    
+}
+
+.footer-a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    line-height: 2;
+    
+}
+.ft-p{
+    color:rgb(201, 204, 205);
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.html-2-add{
+    animation-name: html-2-add;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+    
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 2s; */
+   
+   
+   
+    
+
+ }
+ @keyframes html-2-add {
+   0%{opacity: 0;}
+   50%{opacity: 0.5;}
+   100%{opacity: 1;}
+
+    
+ }
+

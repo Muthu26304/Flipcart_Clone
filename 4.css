@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+   
+    font-family: Georgia, serif;
+    
+    
+}
+
+
+
+
+.gro-html-4-container{
+        width:80%;
+    height: 2800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#header{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+button{
+    
+    background-color: brown;
+    color:#ffffff;
+    border:1px solid brown;
+    margin-left: 800px;
+    padding: 2px;
+    border-radius: 05px;
+}
+
+#gros-search{
+    background-color:rgb(249, 229, 207);
+    padding:15px;
+    
+}
+
+.gros-skicky{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     width:100%;
+     /* height: 70px; */
+    background-color: #ffffff;
+    padding: 10px;
+    z-index: 5;
+}
+
+#gros-search{
+    
+    width:80%;
+    margin-left: 2px;
+    border-radius: 10px;
+    
+  
+}
+
+#hero-ht4{
+    width:100%;
+    height: 100px;
+    color:bisque
+
+}
+
+.gro-hero-img{
+    width:48%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* 
+.snacks-main{
+    width:100%;
+    margin-top: 200px;
+    height:350px;
+
+} */
+
+.snacks{
+    width:220px;
+    height:auto;
+     border:2px solid rgb(244, 239, 239);
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     margin-left: 20px;
+     border-radius: 10px;
+     position:relative;
+     /* bottom:20px */
+    
+}
+
+.offer-snacks{
+    font-size: 13px;
+    width:40px;
+    height:40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(6, 187, 15);
+    padding:5px;
+    color:white;
+    font-weight: bold;
+    margin-left:20px;
+    z-index: 2;
+}
+
+.mixture-image{
+    width:150px;
+    height: 150px;
+
+    position:relative;
+    bottom:10px;
+    left:40px;
+    border-radius: 50px;
+    z-index: 3;
+
+}
+
+.delivery-time-snacks{
+    width:30%;
+    height:20px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 10px;
+    padding:1px;
+    font-size: 12px;
+    text-align: center;
+    position:relative;
+    bottom:20px;
+    left:10px;
+    z-index: 2;
+    color:black;
+}
+
+.delivery-time-snacks i{
+    font-size: 10px;
+    margin-left:-5px;
+    
+
+  
+}
+
+.snacks-contant{
+    line-height: 1.3;
+    font-weight: 600;
+    position:relative;
+    bottom:10px;
+    left:15px;
+    color:#000
+}
+
+.snacks-quantity{
+    color:rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+div .rupees{
+    font-weight: 600;
+    color: #000;
+
+}
+div .rupees-wrong{
+   text-decoration: line-through;
+   font-size: 12px;
+   margin-left: 15px;
+   position:relative;
+   top:25px;
+   color: #000;
+}
+
+.rupees{
+    font-size: 15px;
+    margin-left:15px;
+   position:relative;
+   top:30px;
+    
+}
+
+  .choco .button1{
+    border:1px solid rgb(37, 180, 37);
+    background-color: rgb(225, 245, 225);
+    width:80px;
+    padding:8px;
+    border-radius: 5px;
+    position:relative;
+    bottom:10px;
+    left:120px;
+    
+
+} 
+
+.main-box{
+    width:100%;
+    height:350px;
+   
+}
+
+.main-box-parent{
+    width: 220px;
+    height:350px;
+     border:2px solid rgb(244, 239, 239);
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     margin-left: 20px;
+     border-radius: 10px;
+     background-color: rgb(255, 255, 255);
+     margin:10px;
+}
+
+.add-gro-1{
+    margin-left: 150px;
+    width:50px;
+    height:100%;
+    color:#000;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(85, 207, 15);
+
+}
+
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
