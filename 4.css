@@ -1,232 +1,254 @@
-*{
-    margin:0;
+/* General Reset */
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* cursor: pointer; */
-   
-    font-family: Georgia, serif;
-    
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: #f1f3f6;
+}
 
-
-
-.gro-html-4-container{
-        width:80%;
-    height: 2800px;
+.gro-container {
+    width: 100%;
+    max-width: 1240px;
     margin: auto;
-    background-color: rgb(255, 255, 255);
-
+    background-color: #fff;
 }
 
-#header{
-    width:100%;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-
+/* Header Styling */
+#header {
+    padding: 15px;
+    background: #fff;
 }
 
-button{
-    
-    background-color: brown;
-    color:#ffffff;
-    border:1px solid brown;
-    margin-left: 800px;
-    padding: 2px;
-    border-radius: 05px;
-}
-
-#gros-search{
-    background-color:rgb(249, 229, 207);
-    padding:15px;
-    
-}
-
-.gros-skicky{
-    position: sticky;
-    top:0;
+.header-left {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-     width:100%;
-     /* height: 70px; */
-    background-color: #ffffff;
-    padding: 10px;
-    z-index: 5;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
-#gros-search{
-    
-    width:80%;
-    margin-left: 2px;
-    border-radius: 10px;
-    
-  
-}
-
-#hero-ht4{
-    width:100%;
-    height: 100px;
-    color:bisque
-
-}
-
-.gro-hero-img{
-    width:48%;
-    height: auto;
-    margin: 10px;
-    border-radius: 10px;
-}
-/* 
-.snacks-main{
-    width:100%;
-    margin-top: 200px;
-    height:350px;
-
-} */
-
-.snacks{
-    width:220px;
-    height:auto;
-     border:2px solid rgb(244, 239, 239);
-     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-     margin-left: 20px;
-     border-radius: 10px;
-     position:relative;
-     /* bottom:20px */
-    
-}
-
-.offer-snacks{
-    font-size: 13px;
-    width:40px;
-    height:40px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    background-color: rgb(6, 187, 15);
-    padding:5px;
-    color:white;
+.brand-text {
+    font-size: 20px;
     font-weight: bold;
-    margin-left:20px;
-    z-index: 2;
+    color: #8e2626;
 }
 
-.mixture-image{
-    width:150px;
-    height: 150px;
-
-    position:relative;
-    bottom:10px;
-    left:40px;
-    border-radius: 50px;
-    z-index: 3;
-
-}
-
-.delivery-time-snacks{
-    width:30%;
-    height:20px;
-    background-color: rgb(244, 240, 240);
-    border-radius: 10px;
-    padding:1px;
-    font-size: 12px;
-    text-align: center;
-    position:relative;
-    bottom:20px;
-    left:10px;
-    z-index: 2;
-    color:black;
-}
-
-.delivery-time-snacks i{
-    font-size: 10px;
-    margin-left:-5px;
-    
-
-  
-}
-
-.snacks-contant{
-    line-height: 1.3;
-    font-weight: 600;
-    position:relative;
-    bottom:10px;
-    left:15px;
-    color:#000
-}
-
-.snacks-quantity{
-    color:rgb(0, 0, 0);
-    letter-spacing: 1px;
-    margin-left: 15px;
-}
-
-div .rupees{
-    font-weight: 600;
-    color: #000;
-
-}
-div .rupees-wrong{
-   text-decoration: line-through;
-   font-size: 12px;
-   margin-left: 15px;
-   position:relative;
-   top:25px;
-   color: #000;
-}
-
-.rupees{
-    font-size: 15px;
-    margin-left:15px;
-   position:relative;
-   top:30px;
-    
-}
-
-  .choco .button1{
-    border:1px solid rgb(37, 180, 37);
-    background-color: rgb(225, 245, 225);
-    width:80px;
-    padding:8px;
-    border-radius: 5px;
-    position:relative;
-    bottom:10px;
-    left:120px;
-    
-
-} 
-
-.main-box{
-    width:100%;
-    height:350px;
-   
-}
-
-.main-box-parent{
-    width: 220px;
-    height:350px;
-     border:2px solid rgb(244, 239, 239);
-     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-     margin-left: 20px;
-     border-radius: 10px;
-     background-color: rgb(255, 255, 255);
-     margin:10px;
-}
-
-.add-gro-1{
-    margin-left: 150px;
-    width:50px;
-    height:100%;
-    color:#000;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgb(85, 207, 15);
-
-}
-
-.main-box{
+.delivery-info {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.loc-trigger {
+    color: #8e2626;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.time-btn {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Sticky Search Bar */
+.gros-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-wrapper {
+    flex: 1;
+    background-color: #f9e5cf;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-wrapper input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.hero-img {
+    width: 50%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* --- THE GRID SYSTEM --- */
+.main-grid {
+    display: grid;
+    /* This automatically creates columns that are at least 180px wide */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 15px;
+}
+
+.product-card {
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 10px;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.offer-tag {
+    position: absolute;
+    top: 0; left: 10px;
+    background: #06bb0f;
+    color: #fff;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    font-weight: bold;
+}
+
+.img-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.delivery-tag {
+    font-size: 10px;
+    background: #f4f0f0;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.product-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 40px; /* Ensures titles align */
+    overflow: hidden;
+}
+
+.product-qty {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.price-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-new { font-weight: bold; font-size: 16px; }
+.price-old { text-decoration: line-through; color: #999; font-size: 12px; margin-left: 5px; }
+
+.add-button {
+    background: #55cf0f;
+    border: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+   footer { 
+        background: #172337; 
+        color: white; 
+        padding: 50px 10%; 
+        margin-top: 30px;
+     }
+    .footer-cols { 
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        gap:10px; 
+        font-size: 12px;
+     }
+    .footer-cols h4 { 
+        color: #878787;
+         margin-bottom: 15px;
+          text-transform: uppercase;
+         }
+    .footer-cols p { 
+        margin-bottom: 8px; 
+        cursor: pointer;
+     }
+    .footer-cols p:hover { 
+        text-decoration: underline;
+     }
+    .footer-bottom { 
+        border-top: 1px solid #454d5e;
+        margin-top: 40px;
+        padding-top: 20px; 
+        text-align: center; 
+        font-size: 14px;
+         }
+
+
+/* --- RESPONSIVE BREAKPOINTS --- */
+
+/* Tablets (iPad) */
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-section {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+    .main-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+        gap: 10px;
+        padding: 10px;
+    }
+    .nav-actions p { display: none; } /* Hide 'Login' text on small phones */
+    .brand-text { font-size: 18px; }
+
+    .main-grid{
+        grid-template-columns: repeat(auto-fill, minmax( 1fr));
+    }
+}
